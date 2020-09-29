@@ -14,7 +14,7 @@ class Simulador(object):
     def __init__(self,ventana):
         self.escenas = [
             Titulo(Fondo(os.path.join(DIR_FONDOS,"ID_1.png"),0,0),ventana),
-            Escena(Fondo(os.path.join(DIR_FONDOS,"Office_1.png"),0,0),ventana)
+            Escena(Fondo(os.path.join(DIR_FONDOS,"Office_1.png"),0,0),ventana),
         ]
         self.contador_escena = 0
         
@@ -34,6 +34,7 @@ class Simulador(object):
                 if e.key == pygame.K_LEFT:
                     self.contador_escena -= 1
 
+        # Eventos de la escena actual
         self.escena_actual.eventos(eventos)
 
 def main():
@@ -48,10 +49,12 @@ def main():
     while corriendo:
         timer.tick(FPS)
 
+        # Evento de ventana: Si es cerrada
         if pygame.event.get(pygame.QUIT):
             corriendo = False
             return
 
+        # Eventos de la instancia simulador
         simulador.actualizar()
         simulador.eventos(pygame.event.get())
 
