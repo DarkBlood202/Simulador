@@ -1,7 +1,24 @@
-POSICIONES PARA LOS BOTONES ORIGEN CENTRO [ESCENA MAIN MENU]
+POSICIONES ORIGEN CENTRO
 
-globo terraqueo = (513,274)
-pizarra = (405,213)
-monitor = (186,262)
-chart = (688,307)
-cafe = (95,119)
+[ESCENA MAIN MENU]
+boton globo terraqueo = (513,274)
+boton pizarra = (405,213)
+boton monitor = (186,262)
+boton chart = (688,307)
+boton cafe = (95,119)
+
+
+[ESCENA PENSAMIENTO]
+sprite nube grande = (619,97)
+sprite nube mediana = (450,221)
+sprite nube pequeña = (,)
+
+
+[ESCENA AREA DE DISEÑO 0]
+boton logo 0 = (168,204)
+boton logo 1 = (317,204)
+boton logo 2 = (465,204)
+boton logo 3 = (613,204)
+
+textinput nombre de empresa = (topleft=(264,96))
+boton confirmar = (391,307)

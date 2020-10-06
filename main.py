@@ -16,6 +16,7 @@ class Simulador(object):
             Titulo(Fondo(os.path.join(DIR_FONDOS,"title_render.png"),0,0),ventana),
             MenuPrincipal(Fondo(os.path.join(DIR_FONDOS,"main_menu_render.png"),0,0),ventana),
             ComoDisenar(Fondo(os.path.join(DIR_FONDOS,"bubbles_render.png"),0,0),ventana),
+            AreaDiseno(Fondo(os.path.join(DIR_FONDOS,"area_diseno_0_render.png"),0,0),ventana),
         ]
         self.contador_escena = 0
         
@@ -32,14 +33,20 @@ class Simulador(object):
             if e.type == pygame.KEYDOWN:
                 if e.key == pygame.K_RIGHT:
                     self.contador_escena += 1
+                    print(self.contador_escena)
                 if e.key == pygame.K_LEFT:
                     self.contador_escena -= 1
+                    print(self.contador_escena)
                 if e.key == pygame.K_UP:
                     print(pygame.mouse.get_pos())
 
         # Eventos de la escena actual
         self.escena_actual.eventos(eventos)
-        
+
+        # Eventos de los sprites en la escena actual
+        for sprite in self.escena_actual.sprites:
+            sprite.eventos(eventos)
+
         # Eventos de la UI en la escena actual
         for element in self.escena_actual.ui:
             element.eventos(eventos)

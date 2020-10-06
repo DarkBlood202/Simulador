@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="-184.75087"
-     inkscape:cy="700.41811"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="-153.16087"
+     inkscape:cy="639.76969"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -295,20 +295,23 @@
        id="path3429"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/sebastian/Proyectos/Simulador/data/bck/elements/bubble_big.png" />
     <path
        inkscape:connector-curvature="0"
        id="path3442"
-       d="m -36.257015,77.299069 a 6.4870023,6.4870023 0 0 0 -4.102483,1.467142 6.4870023,6.4870023 0 0 0 -3.702191,-1.163063 6.4870023,6.4870023 0 0 0 -6.483934,6.42633 6.4870023,6.4870023 0 0 0 -5.1724,6.344957 6.4870023,6.4870023 0 0 0 5.878847,6.456601 v 0.03035 h 0.608156 25.84665 v -0.07132 a 6.4870023,6.4870023 0 0 0 5.57477,-6.415723 6.4870023,6.4870023 0 0 0 -5.003831,-6.308035 6.4870023,6.4870023 0 0 0 -6.145706,-4.436061 6.4870023,6.4870023 0 0 0 -2.058764,0.343862 6.4870023,6.4870023 0 0 0 -5.239114,-2.675132 z"
+       d="m -36.257015,78.357403 a 6.4870023,6.4870023 0 0 0 -4.102483,1.467142 6.4870023,6.4870023 0 0 0 -3.702191,-1.163063 6.4870023,6.4870023 0 0 0 -6.483934,6.42633 6.4870023,6.4870023 0 0 0 -5.1724,6.344957 6.4870023,6.4870023 0 0 0 5.878847,6.456601 v 0.03035 h 0.608156 25.84665 V 97.8484 a 6.4870023,6.4870023 0 0 0 5.57477,-6.415723 6.4870023,6.4870023 0 0 0 -5.003831,-6.308035 6.4870023,6.4870023 0 0 0 -6.145706,-4.436061 6.4870023,6.4870023 0 0 0 -2.058764,0.343862 6.4870023,6.4870023 0 0 0 -5.239114,-2.675132 z"
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0506797;stroke-miterlimit:4;stroke-dasharray:none"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-xdpi="105"
+       inkscape:export-ydpi="105"
+       inkscape:export-filename="/home/sebastian/Proyectos/Simulador/data/bck/elements/bubble_med.png" />
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.02362188;stroke-miterlimit:4;stroke-dasharray:none"
        d="m -61.436801,98.087952 a 3.0236014,3.0236014 0 0 0 -1.912173,0.683834 3.0236014,3.0236014 0 0 0 -1.725597,-0.542109 3.0236014,3.0236014 0 0 0 -3.022171,2.995313 3.0236014,3.0236014 0 0 0 -2.410864,2.95739 3.0236014,3.0236014 0 0 0 2.74014,3.00944 v 0.0141 h 0.283462 12.047163 v -0.0333 a 3.0236014,3.0236014 0 0 0 2.598408,-2.99038 3.0236014,3.0236014 0 0 0 -2.332293,-2.94018 3.0236014,3.0236014 0 0 0 -2.864522,-2.067657 3.0236014,3.0236014 0 0 0 -0.959594,0.160274 3.0236014,3.0236014 0 0 0 -2.441959,-1.246875 z"
        id="path3444"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-xdpi="128"
+       inkscape:export-ydpi="128"
+       inkscape:export-filename="/home/sebastian/Proyectos/Simulador/data/bck/elements/bubble_small.png" />
   </g>
 </svg>
