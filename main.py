@@ -13,8 +13,9 @@ class Simulador(object):
     """
     def __init__(self,ventana):
         self.escenas = [
-            Titulo(Fondo(os.path.join(DIR_FONDOS,"ID_1.png"),0,0),ventana),
-            Escena(Fondo(os.path.join(DIR_FONDOS,"Office_1.png"),0,0),ventana),
+            Titulo(Fondo(os.path.join(DIR_FONDOS,"title_render.png"),0,0),ventana),
+            MenuPrincipal(Fondo(os.path.join(DIR_FONDOS,"main_menu_render.png"),0,0),ventana),
+            ComoDisenar(Fondo(os.path.join(DIR_FONDOS,"bubbles_render.png"),0,0),ventana),
         ]
         self.contador_escena = 0
         
@@ -33,9 +34,15 @@ class Simulador(object):
                     self.contador_escena += 1
                 if e.key == pygame.K_LEFT:
                     self.contador_escena -= 1
+                if e.key == pygame.K_UP:
+                    print(pygame.mouse.get_pos())
 
         # Eventos de la escena actual
         self.escena_actual.eventos(eventos)
+        
+        # Eventos de la UI en la escena actual
+        for element in self.escena_actual.ui:
+            element.eventos(eventos)
 
 def main():
     pygame.init()

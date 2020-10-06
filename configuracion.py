@@ -17,3 +17,7 @@ DIR_UI = os.path.join(DIR_ASSETS,"ui")
 NEGRO = (0,0,0)
 BLANCO = (255,255,255)
 VERDE = (0,255,0)
+
+# Constantes
+MOUSE_IZQUIERDO = 1
+MOUSE_DERECHO = 3

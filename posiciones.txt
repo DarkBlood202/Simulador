@@ -1,0 +1,7 @@
+POSICIONES PARA LOS BOTONES ORIGEN CENTRO [ESCENA MAIN MENU]
+
+globo terraqueo = (513,274)
+pizarra = (405,213)
+monitor = (186,262)
+chart = (688,307)
+cafe = (95,119)
