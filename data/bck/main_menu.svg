@@ -13,7 +13,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="main_menu.svg">
   <defs
      id="defs2">
@@ -135,11 +135,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="-387.84515"
-     inkscape:cy="673.31253"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="52.833684"
+     inkscape:cy="389.65939"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer9"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
@@ -147,9 +147,9 @@
      inkscape:object-nodes="false"
      inkscape:snap-intersection-paths="false"
      inkscape:window-width="1366"
-     inkscape:window-height="706"
-     inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -223,12 +223,13 @@
        x="-66.826691"
        y="38.927773"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\pizarron.png" />
     <g
        id="g4148"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\pizarron.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\pizarron_1.png">
       <rect
          style="display:inline;fill:#79a7ec;fill-opacity:1;stroke:none;stroke-width:0.254697;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1781"
@@ -244,6 +245,36 @@
          x="-61.717766"
          y="42.556065" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.188755px;line-height:1.25;font-family:'Poor Richard';-inkscape-font-specification:'Poor Richard, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#502d16;fill-opacity:1;stroke:none;stroke-width:0.13833;"
+       x="-59.629158"
+       y="52.763935"
+       id="text3193"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3191"
+         x="-59.629158"
+         y="52.763935"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.188755px;font-family:'Poor Richard';-inkscape-font-specification:'Poor Richard, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#502d16;stroke-width:0.13833;">DNP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.188755px;line-height:1.25;font-family:'Poor Richard';-inkscape-font-specification:'Poor Richard, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#502d16;fill-opacity:1;stroke:none;stroke-width:0.159619;"
+       x="-59.26429"
+       y="63.283737"
+       id="text3197"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3195"
+         x="-59.26429"
+         y="63.283737"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.188755px;font-family:'Poor Richard';-inkscape-font-specification:'Poor Richard, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#502d16;stroke-width:0.159619;"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.188755px;font-family:'Poor Richard';-inkscape-font-specification:'Poor Richard, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.159619;"
+   id="tspan3201">Plataforma = C1  + C2 + C3 + <tspan
+   style="fill:#ff0000;stroke-width:0.159619;-inkscape-font-specification:'Poor Richard, Normal';font-family:'Poor Richard';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:9.188755px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
+   id="tspan3207">C4</tspan></tspan> </tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -272,7 +303,7 @@
        id="g4193"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\b_0.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_1_1.png">
       <rect
          style="fill:#68e368;fill-opacity:1;stroke:none;stroke-width:0.237238;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1798"
@@ -290,7 +321,7 @@
        id="g4197"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4197.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_2_1.png">
       <rect
          style="fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:0.182181;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1826"
@@ -311,7 +342,7 @@
        id="g4210"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4210.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_5_1.png">
       <rect
          style="fill:#88aa00;fill-opacity:1;stroke:none;stroke-width:0.229286;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1832"
@@ -333,7 +364,7 @@
        id="g4206"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4206.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_4_1.png">
       <rect
          style="fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.201477;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1830"
@@ -351,7 +382,7 @@
        id="g4202"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4202.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_3_1.png">
       <rect
          style="fill:#2a7fff;fill-opacity:1;stroke:none;stroke-width:0.320931;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1828"
@@ -377,7 +408,7 @@
        id="g4219"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4219.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_7_1.png">
       <rect
          style="fill:#00aad4;fill-opacity:1;stroke:none;stroke-width:0.230893;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1858"
@@ -399,7 +430,7 @@
        id="g4223"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4223.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_8_1.png">
       <rect
          style="fill:#502d16;fill-opacity:1;stroke:none;stroke-width:0.19737;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1860"
@@ -417,7 +448,7 @@
        id="g4215"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4215.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_6_1.png">
       <rect
          style="fill:#280b0b;fill-opacity:1;stroke:none;stroke-width:0.212973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1834"
@@ -456,7 +487,7 @@
        id="g4248"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4248.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_11_1.png">
       <rect
          style="fill:#004455;fill-opacity:1;stroke:none;stroke-width:0.237238;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1979"
@@ -474,7 +505,7 @@
        id="g4240"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4240.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_13_1.png">
       <rect
          style="fill:#5d536c;fill-opacity:1;stroke:none;stroke-width:0.182181;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1993"
@@ -495,7 +526,7 @@
        id="g4252"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4252.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_10_1.png">
       <rect
          style="fill:#502d16;fill-opacity:1;stroke:none;stroke-width:0.219177;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1997"
@@ -517,7 +548,7 @@
        id="g4232"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4232.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_15_1.png">
       <rect
          style="fill:#000055;fill-opacity:1;stroke:none;stroke-width:0.201477;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1985"
@@ -535,7 +566,7 @@
        id="g4228"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4228.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_16_1.png">
       <rect
          style="fill:#338000;fill-opacity:1;stroke:none;stroke-width:0.320931;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1983"
@@ -561,7 +592,7 @@
        id="g4236"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4236.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_14_1.png">
       <rect
          style="fill:#550022;fill-opacity:1;stroke:none;stroke-width:0.230893;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1989"
@@ -583,7 +614,7 @@
        id="g4244"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4244.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_12_1.png">
       <rect
          style="fill:#002b22;fill-opacity:1;stroke:none;stroke-width:0.19737;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1991"
@@ -601,7 +632,7 @@
        id="g4257"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\books\g4257.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\books\book_9_1.png">
       <rect
          style="fill:#c83737;fill-opacity:1;stroke:none;stroke-width:0.212973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect1987"
@@ -998,7 +1029,7 @@
        style="display:inline"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="/home/sebastian/Proyectos/Simulador/data/bck/elements/monitor.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\monitor_1.png">
       <path
          id="rect844"
          style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.92566"
@@ -1085,7 +1116,7 @@
        transform="matrix(1,0,0,0.99825621,0,0.05373133)"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="/home/sebastian/Proyectos/Simulador/data/bck/elements/cafe.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\cafe_1.png">
       <path
          id="rect1703"
          style="display:inline;fill:url(#linearGradient1741);fill-opacity:1;stroke:none;stroke-width:0.165057;stroke-miterlimit:4;stroke-dasharray:none"
@@ -1120,7 +1151,7 @@
        transform="matrix(0.72669549,0,0,0.72669549,11.374663,35.040487)"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="/home/sebastian/Proyectos/Simulador/data/bck/elements/globo.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\globo.png">
       <g
          id="g3925"
          transform="translate(-125.94167,-23.8125)">
@@ -1317,9 +1348,10 @@
        height="32.430687"
        width="47.095833"
        id="rect3319"
-       style="opacity:1;fill:#deaa87;fill-opacity:1;stroke:none;stroke-width:0.36615801;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="opacity:1;fill:#deaa87;fill-opacity:1;stroke:none;stroke-width:0.366158;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
     <rect
        ry="0.54625219"
        y="94.60939"
@@ -1327,52 +1359,58 @@
        height="2.6146739"
        width="54.62989"
        id="rect3321"
-       style="opacity:1;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:0.31632099;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="opacity:1;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:0.316321;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
     <path
        inkscape:connector-curvature="0"
        d="m 70.448598,127.04008 h 51.984062 v 0.0749 a 4.1044522,2.5812615 0 0 1 -4.10445,2.58126 H 74.553051 a 4.1044522,2.5812615 0 0 1 -4.104453,-2.58126 z"
-       style="opacity:1;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:0.31099901;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="opacity:1;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:0.310999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="rect3323"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
     <rect
        y="101.79332"
        x="76.156288"
        height="23.345303"
        width="41.891594"
        id="rect3329"
-       style="opacity:1;fill:#f4e3d7;fill-opacity:1;stroke:none;stroke-width:0.43101001;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="opacity:1;fill:#f4e3d7;fill-opacity:1;stroke:none;stroke-width:0.43101;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
     <rect
        y="113.46928"
        x="76.849716"
        height="11.412409"
        width="5.3320274"
        id="rect4046"
-       style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
     <rect
        y="110.47586"
        x="82.71183"
        height="14.405828"
        width="5.3320274"
        id="rect4048"
-       style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.44589701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.445897;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
     <rect
        y="104.95674"
        x="88.573952"
        height="19.924944"
        width="5.3320274"
        id="rect4050"
-       style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.52440101;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.524401;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
     <rect
        y="107.85661"
        x="94.436066"
@@ -1381,16 +1419,18 @@
        id="rect4052"
        style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.484741;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
     <rect
        y="117.77232"
        x="100.29819"
        height="7.1093693"
        width="5.3320274"
        id="rect4054"
-       style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.31324199;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.313242;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
     <rect
        y="115.90143"
        x="106.1603"
@@ -1399,16 +1439,18 @@
        id="rect4056"
        style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.352054;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
     <rect
        y="111.87902"
        x="112.02242"
        height="13.002663"
        width="5.3320274"
        id="rect4058"
-       style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.42362499;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#0086dc;fill-opacity:1;stroke:none;stroke-width:0.423625;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\chart_1.png" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1419,7 +1461,7 @@
        id="g4275"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="/home/sebastian/Proyectos/Simulador/data/bck/elements/papelera.png">
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\papelera_1.png">
       <path
          id="rect3299"
          style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.25968;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"

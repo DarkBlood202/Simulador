@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,7 +13,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="bubble.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,21 +23,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="-153.16087"
-     inkscape:cy="639.76969"
+     inkscape:zoom="1"
+     inkscape:cx="-223.6244"
+     inkscape:cy="262.33867"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
      units="px"
      showborder="false"
      inkscape:window-width="1366"
-     inkscape:window-height="706"
-     inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:object-nodes="false"
-     inkscape:object-paths="true" />
+     inkscape:object-paths="true"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -77,7 +76,7 @@
        height="158.74998"
        width="211.66667"
        id="rect1719"
-       style="display:inline;fill:#ffeeaa;fill-rule:evenodd;stroke:none;stroke-width:0.26458329;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#ffeeaa;fill-rule:evenodd;stroke:none;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
   </g>
@@ -296,22 +295,78 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       inkscape:export-filename="/home/sebastian/Proyectos/Simulador/data/bck/elements/bubble_big.png" />
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\bubble_big.png" />
     <path
        inkscape:connector-curvature="0"
        id="path3442"
        d="m -36.257015,78.357403 a 6.4870023,6.4870023 0 0 0 -4.102483,1.467142 6.4870023,6.4870023 0 0 0 -3.702191,-1.163063 6.4870023,6.4870023 0 0 0 -6.483934,6.42633 6.4870023,6.4870023 0 0 0 -5.1724,6.344957 6.4870023,6.4870023 0 0 0 5.878847,6.456601 v 0.03035 h 0.608156 25.84665 V 97.8484 a 6.4870023,6.4870023 0 0 0 5.57477,-6.415723 6.4870023,6.4870023 0 0 0 -5.003831,-6.308035 6.4870023,6.4870023 0 0 0 -6.145706,-4.436061 6.4870023,6.4870023 0 0 0 -2.058764,0.343862 6.4870023,6.4870023 0 0 0 -5.239114,-2.675132 z"
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0506797;stroke-miterlimit:4;stroke-dasharray:none"
-       inkscape:export-xdpi="105"
-       inkscape:export-ydpi="105"
-       inkscape:export-filename="/home/sebastian/Proyectos/Simulador/data/bck/elements/bubble_med.png" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\bubble_med.png" />
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.02362188;stroke-miterlimit:4;stroke-dasharray:none"
        d="m -61.436801,98.087952 a 3.0236014,3.0236014 0 0 0 -1.912173,0.683834 3.0236014,3.0236014 0 0 0 -1.725597,-0.542109 3.0236014,3.0236014 0 0 0 -3.022171,2.995313 3.0236014,3.0236014 0 0 0 -2.410864,2.95739 3.0236014,3.0236014 0 0 0 2.74014,3.00944 v 0.0141 h 0.283462 12.047163 v -0.0333 a 3.0236014,3.0236014 0 0 0 2.598408,-2.99038 3.0236014,3.0236014 0 0 0 -2.332293,-2.94018 3.0236014,3.0236014 0 0 0 -2.864522,-2.067657 3.0236014,3.0236014 0 0 0 -0.959594,0.160274 3.0236014,3.0236014 0 0 0 -2.441959,-1.246875 z"
        id="path3444"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="128"
-       inkscape:export-ydpi="128"
-       inkscape:export-filename="/home/sebastian/Proyectos/Simulador/data/bck/elements/bubble_small.png" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\bubble_small.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.85916px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#502d16;fill-opacity:1;stroke:none;stroke-width:0.07878;"
+       x="-26.082525"
+       y="57.269733"
+       id="text3854"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\bubble_big.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3852"
+         x="-26.082525"
+         y="57.269733"
+         style="stroke-width:0.07878;fill:#502d16;">Plataforma = C1 + C2 + C3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.85916px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#502d16;fill-opacity:1;stroke:none;stroke-width:0.0787803;"
+       x="-29.894165"
+       y="64.473145"
+       id="text3858"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\bubble_big.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3856"
+         x="-29.894165"
+         y="64.473145"
+         style="stroke-width:0.0787803;fill:#502d16;">Producto 1 = Plataforma  + C4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.85916px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#502d16;fill-opacity:1;stroke:none;stroke-width:0.0787803;"
+       x="-29.894165"
+       y="71.676559"
+       id="text3862"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\bubble_big.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3860"
+         x="-29.894165"
+         y="71.676559"
+         style="stroke-width:0.0787803;fill:#502d16;">Producto 2 = Plataforma  + C5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.00169px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#502d16;fill-opacity:1;stroke:none;stroke-width:0.113516;"
+       x="-20.549603"
+       y="48.081425"
+       id="text3880"
+       inkscape:export-filename="E:\PythonStuff\SIM\data\bck\elements\bubble_big.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3878"
+         x="-20.549603"
+         y="48.081425"
+         style="stroke-width:0.113516;fill:#502d16;">¿Cómo Diseñar?</tspan></text>
   </g>
 </svg>

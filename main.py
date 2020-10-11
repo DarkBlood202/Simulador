@@ -16,7 +16,13 @@ class Simulador(object):
             Titulo(Fondo(os.path.join(DIR_FONDOS,"title_render.png"),0,0),ventana),
             MenuPrincipal(Fondo(os.path.join(DIR_FONDOS,"main_menu_render.png"),0,0),ventana),
             ComoDisenar(Fondo(os.path.join(DIR_FONDOS,"bubbles_render.png"),0,0),ventana),
-            AreaDiseno(Fondo(os.path.join(DIR_FONDOS,"area_diseno_0_render.png"),0,0),ventana),
+            DefinirEmpresa(Fondo(os.path.join(DIR_FONDOS,"area_diseno_0_render.png"),0,0),ventana),
+            AreaDiseno(Fondo(os.path.join(DIR_FONDOS,"area_diseno_1_render.png"),0,0),ventana),
+            Escena(Fondo(os.path.join(DIR_FONDOS,"area_diseno_2_render.png"),0,0),ventana),
+            Escena(Fondo(os.path.join(DIR_FONDOS,"area_diseno_3_render.png"),0,0),ventana),
+            Escena(Fondo(os.path.join(DIR_FONDOS,"area_diseno_4_render.png"),0,0),ventana),
+            Escena(Fondo(os.path.join(DIR_FONDOS,"area_diseno_5_render.png"),0,0),ventana),
+            Escena(Fondo(os.path.join(DIR_FONDOS,"area_diseno_6_render.png"),0,0),ventana),
         ]
         self.contador_escena = 0
         
@@ -57,6 +63,7 @@ def main():
     pygame.display.set_caption(TITULO)
     timer = pygame.time.Clock()
     corriendo = True
+    fullscreen = False
 
     simulador = Simulador(ventana)
 
