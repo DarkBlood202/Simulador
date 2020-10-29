@@ -75,8 +75,10 @@ def main():
             corriendo = False
             return
 
-        # Eventos de la instancia simulador
+        # Actualizar instancia simulador
         simulador.actualizar()
+
+        # Eventos de la instancia simulador
         simulador.eventos(pygame.event.get())
 
         ventana.fill(NEGRO)

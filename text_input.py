@@ -33,3 +33,6 @@ class EntradaTexto(object):
                         self.texto = self.texto[:-1]
                     else:
                         self.texto += e.unicode
+    
+    def actualizar(self):
+        pass

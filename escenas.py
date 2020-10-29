@@ -1,5 +1,6 @@
 from configuracion import *
-from clases import Escena, Boton, SpriteGeneral, BotonUI, BotonSprite, Contenedor
+from clases import Escena, SpriteGeneral, Contenedor
+from elementos_ui import *
 from text_input import EntradaTexto
 from metodos import *
 
@@ -69,17 +70,17 @@ class DefinirEmpresa(Escena):
         super().__init__(fondo,ventana)
 
         # Instanciando nuevos objetos en la escena
-        self.entrada_texto = EntradaTexto(os.path.join(DIR_ASSETS,"fonts","Vidaloka-Regular.ttf"),24,BEIGE_8,264,96,400,30,x_off=5,y_off=0,background=BEIGE_0)
+        self.entrada_texto = EntradaTexto(VIDALOKA,24,BEIGE_8,264,96,400,30,x_off=5,y_off=0,background=BEIGE_0)
 
         # Botones de seleccion de logo
-        logos = []
+        self.logos = []
 
-        logos.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"definir_empresa","logos","logoA"),168,204,alts=3))
-        logos.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"definir_empresa","logos","logoB"),317,204,alts=3))
-        logos.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"definir_empresa","logos","logoC"),465,204,alts=3))
-        logos.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"definir_empresa","logos","logoD"),613,204,alts=3))
+        self.logos.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"definir_empresa","logos","logoA"),168,204,alts=3))
+        self.logos.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"definir_empresa","logos","logoB"),317,204,alts=3))
+        self.logos.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"definir_empresa","logos","logoC"),465,204,alts=3))
+        self.logos.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"definir_empresa","logos","logoD"),613,204,alts=3))
 
-        for logo in logos:
+        for logo in self.logos:
             logo.add(self.ui)
 
         # Boton de confirmar
@@ -89,16 +90,30 @@ class DefinirEmpresa(Escena):
 
         # Variables
         self.nombre_empresa = self.entrada_texto.obtener_texto()
+        self.logo_empresa = 0
 
     def actualizar(self):
         super().actualizar()
         
-        # Logica de la escena:
+        ##################### LOGICA DE LA ESCENA #####################
+
+        # Botones de selección de logo
+        for indice,logo in enumerate(self.logos):
+            if logo.encendido:
+                self.logo_empresa = indice
+
         # Activar/Desactivar botón de confirmar
-        if self.entrada_texto.obtener_texto() != "":
-            self.boton_confirmar.estado = BOTON_NEUTRAL
-        else:
-            self.boton_confirmar.estado = BOTON_DESACTIVADO
+        if self.boton_confirmar.estado != BOTON_CLICK:
+            if self.entrada_texto.obtener_texto() == "":
+                self.boton_confirmar.estado = BOTON_DESACTIVADO
+            elif not self.boton_confirmar.estado == BOTON_ACTIVO:
+                self.boton_confirmar.estado = BOTON_NEUTRAL
+
+        # Si confirmas la selección
+        if self.boton_confirmar.estado == BOTON_CLICK:
+            self.nombre_empresa = self.entrada_texto.obtener_texto()
+            print(self.nombre_empresa)
+            print(f"Logo: {self.logo_empresa}")
 
     def renderizar(self):
         # Renderizando los elementos por defecto de la escena
@@ -114,33 +129,146 @@ class AreaDiseno(Escena):
     def __init__(self,fondo,ventana):
         super().__init__(fondo,ventana)
 
+        self.modulos = []
+        for i in range(5):
+            self.modulos.append(Contenedor(self))
+
+        self.contador_modulo = 4
+
+        self.modulo_actual = self.modulos[self.contador_modulo]
+
         self.presupuesto = 45000000
         self.periodo = 1
         self.producto = 1
 
-        # Generar texto para los numeros
-        self.texto_periodo = generar_texto("N° " + str(self.periodo).zfill(2),os.path.join(DIR_FONTS,"Vidaloka-Regular.ttf"),17,BEIGE_0,fondo=BEIGE_1)
-        self.texto_producto = generar_texto("N° " + str(self.producto).zfill(3),os.path.join(DIR_FONTS,"Vidaloka-Regular.ttf"),17,BEIGE_0,fondo=BEIGE_1)
-        self.texto_presupuesto = generar_texto(formatear_millar(self.presupuesto),os.path.join(DIR_FONTS,"Vidaloka-Regular.ttf"),16,BEIGE_0,fondo=BEIGE_1)
+        # Botones de navegación de módulos
+        self.navegacion_anterior = BotonSprite(os.path.join(DIR_UI,"boton_navegacionA"),134,429,alts=3)
+        self.navegacion_siguiente = BotonSprite(os.path.join(DIR_UI,"boton_navegacionB"),649,429,alts=3)
 
-        # Modulos de Estudio - Diseño de Producto - Producción - Promoción - Distribución
-        self.modulo_estudio = Contenedor(self)
-        self.modulo_diseno = Contenedor(self)
-        self.modulo_produccion = Contenedor(self)
-        self.modulo_promocion = Contenedor(self)
-        self.modulo_distribucion = Contenedor(self)
+        self.navegacion_anterior.add(self.ui)
+        self.navegacion_siguiente.add(self.ui)
 
-        # AGregar elementos correspondientes a cada modulo
+        # Generar texto para los numeros en la barra superior
+        self.texto_periodo = generar_texto("N° " + str(self.periodo).zfill(2),VIDALOKA,17,BEIGE_0,fondo=BEIGE_1)
+        self.texto_producto = generar_texto("N° " + str(self.producto).zfill(3),VIDALOKA,17,BEIGE_0,fondo=BEIGE_1)
+        self.texto_presupuesto = generar_texto(formatear_millar(self.presupuesto),VIDALOKA,16,BEIGE_0,fondo=BEIGE_1)
 
+        # Agregar elementos correspondientes a cada modulo
+        
+        ############# MODULO ESTUDIO MERCADO #############
+        
+        ##################################################
+
+        ############# MODULO DISENO PRODUCTO #############
+        self.modulos[1].textos.append(Texto("Tamaño del producto",191,157,VIDALOKA,21,BEIGE_7,_fondo=BEIGE_1))
+        self.modulos[1].textos.append(Texto("Tipo de envase",191,197,VIDALOKA,21,BEIGE_7,_fondo=BEIGE_1))
+        self.modulos[1].textos.append(Texto("Colores por empaque",191,237,VIDALOKA,21,BEIGE_7,_fondo=BEIGE_1))
+        self.modulos[1].textos.append(Texto("Porcentaje de calorías",191,277,VIDALOKA,21,BEIGE_7,_fondo=BEIGE_1))
+        self.modulos[1].textos.append(Texto("Porcentaje de proteínas",191,317,VIDALOKA,21,BEIGE_7,_fondo=BEIGE_1))
+        self.modulos[1].textos.append(Texto("Sabor",191,357,VIDALOKA,21,BEIGE_7,_fondo=BEIGE_1))
+
+        self.modulos[1].elementos.append(ListaBarra(535,169,"0.2L","0.3L","1.0L","4.0L"))
+        self.modulos[1].elementos.append(ListaBarra(535,209,"Cartón","Vidrio","Plástico"))
+        self.modulos[1].elementos.append(ListaBarra(535,249,"2","3","5"))
+        self.modulos[1].elementos.append(ListaBarra(535,289,"18%","26%","35%"))
+        self.modulos[1].elementos.append(ListaBarra(535,329,"7%","9%","12%"))
+        self.modulos[1].elementos.append(ListaBarra(535,369,"Fresa","Durazno","Piña","Lúcuma","Cereza"))
+        self.confirmar_1 = BotonUI("boton_confirmar",391,411)
+        self.confirmar_1.estado = BOTON_DESACTIVADO
+        self.confirmar_1.add(self.modulos[1].ui)
+        ##################################################
+
+        ################ MODULO PRODUCCION ###############
+        self.modulos[2].textos.append(Texto("Indique cuánto va a producirse.",244,180,VIDALOKA,21,BEIGE_7,_fondo=BEIGE_1))
+        
+        self.cantidad_produccion = 0
+        self.entrada_cantidad_produccion = EntradaTexto(VIDALOKA,24,BEIGE_8,244,211,295,30,x_off=0,y_off=0,background=BEIGE_2)
+        self.modulos[2].elementos.append(self.entrada_cantidad_produccion)
+        
+        self.confirmar_2 = BotonUI("boton_confirmar",391,285)
+        self.confirmar_2.estado = BOTON_DESACTIVADO
+        self.confirmar_2.add(self.modulos[2].ui)
+        ##################################################
+
+        ################ MODULO PROMOCION ################
+
+        ##################################################
+
+        ############### MODULO DISTRIBUCION ##############
+        self.modulos[4].textos.append(Texto("Seleccione los canales de distribución.",212,180,VIDALOKA,21,BEIGE_7,_fondo=BEIGE_1))
+        
+        canales_distribucion = []
+        canales_distribucion.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"area_diseno","distribucion_precio","supermercados"),175,266,alts=4))
+        canales_distribucion.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"area_diseno","distribucion_precio","mercado_abastos"),261,266,alts=4))
+        canales_distribucion.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"area_diseno","distribucion_precio","autoservicios"),347,266,alts=4))
+        canales_distribucion.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"area_diseno","distribucion_precio","bodegas"),433,266,alts=4))
+        canales_distribucion.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"area_diseno","distribucion_precio","panaderias"),519,266,alts=4))
+        canales_distribucion.append(BotonSprite(os.path.join(DIR_ELEMENTOS,"area_diseno","distribucion_precio","entrega_domicilio"),605,266,alts=4))
+
+        for canal in canales_distribucion:
+            canal.add(self.modulos[4].ui)
+
+        self.boton_confirmar_4 = BotonUI("boton_confirmar",391,385)
+        self.boton_confirmar_4.estado = BOTON_DESACTIVADO
+        self.boton_confirmar_4.add(self.modulos[4].ui)
+        ##################################################
 
     def renderizar(self):
+        # Renderizar elementos de la escena
         super().renderizar()
+        # Renderizar texto de la barra superior
         self.ventana.blit(self.texto_periodo,pygame.Rect(195,106,145,24))
         self.ventana.blit(self.texto_producto,pygame.Rect(368,106,145,24))
         self.ventana.blit(self.texto_presupuesto,pygame.Rect(547,106,145,24))
 
+        # Renderizar modulo
+        self.modulo_actual.renderizar(self.ventana)
+
     def actualizar(self):
         super().actualizar()
-        self.texto_periodo = generar_texto("N° " + str(self.periodo).zfill(2),os.path.join(DIR_FONTS,"Vidaloka-Regular.ttf"),17,BEIGE_0,fondo=BEIGE_1)
-        self.texto_producto = generar_texto("N° " + str(self.producto).zfill(3),os.path.join(DIR_FONTS,"Vidaloka-Regular.ttf"),17,BEIGE_0,fondo=BEIGE_1)
-        self.texto_presupuesto = generar_texto(formatear_millar(self.presupuesto),os.path.join(DIR_FONTS,"Vidaloka-Regular.ttf"),16,BEIGE_0,fondo=BEIGE_1)
+        self.texto_periodo = generar_texto("N° " + str(self.periodo).zfill(2),VIDALOKA,17,BEIGE_0,fondo=BEIGE_1)
+        self.texto_producto = generar_texto("N° " + str(self.producto).zfill(3),VIDALOKA,17,BEIGE_0,fondo=BEIGE_1)
+        self.texto_presupuesto = generar_texto(formatear_millar(self.presupuesto),VIDALOKA,16,BEIGE_0,fondo=BEIGE_1)
+
+        # Actualizar contador basado en navegación con botones
+        if self.navegacion_anterior.encendido:
+            print(f"Modulo: {self.contador_modulo}")
+            if self.contador_modulo == 0:
+                self.contador_modulo = 0
+            else:
+                self.contador_modulo -= 1
+
+        if self.navegacion_siguiente.encendido:
+            print(f"Modulo: {self.contador_modulo}")
+            if self.contador_modulo == len(self.modulos)-1:
+                self.contador_modulo = len(self.modulos)-1
+            else:
+                self.contador_modulo += 1
+
+        # Actualizar modulo actual
+        self.modulo_actual = self.modulos[self.contador_modulo]
+        self.modulo_actual.actualizar()
+
+        # Lógica modulo-especifica
+        
+        ################ MODULO PRODUCCION ###############
+        # Activar/Desactivar botón de confirmar
+        if self.confirmar_2.estado != BOTON_CLICK:
+            if self.entrada_cantidad_produccion.obtener_texto() == "":
+                self.confirmar_2.estado = BOTON_DESACTIVADO
+            elif not self.confirmar_2.estado == BOTON_ACTIVO:
+                self.confirmar_2.estado = BOTON_NEUTRAL
+
+        # Si confirmas la selección
+        if self.confirmar_2.estado == BOTON_CLICK:
+            # Debes haber introducido un numero
+            try:
+                self.cantidad_produccion = int(self.entrada_cantidad_produccion.obtener_texto())
+            except ValueError:
+                print("Introduce un número.")
+            finally:
+                print(self.cantidad_produccion)
+        ##################################################
+
+    def eventos(self,eventos):
+        self.modulo_actual.eventos(eventos)

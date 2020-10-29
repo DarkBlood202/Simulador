@@ -16,10 +16,12 @@ DIR_ELEMENTOS = os.path.join(DIR_FONDOS,"elements")
 DIR_UI = os.path.join(DIR_ASSETS,"ui")
 DIR_FONTS = os.path.join(DIR_ASSETS,"fonts")
 
-# Colores #
+########## Colores ##########
 NEGRO = (0,0,0)
 BLANCO = (255,255,255)
 VERDE = (0,255,0)
+
+BLUEBERRY = (26,115,232)
 
 # Paleta de colores del Simulador
 BEIGE_0 = Color("#f4e3d7")
@@ -32,7 +34,10 @@ BEIGE_6 = Color("#784421")
 BEIGE_7 = Color("#502d16")
 BEIGE_8 = Color("#28170b")
 
-# Constantes #
+########## Tipografía ##########
+VIDALOKA = os.path.join(DIR_FONTS,"Vidaloka-Regular.ttf")
+
+########### Constantes ###########
 # Mouse
 MOUSE_IZQUIERDO = 1
 MOUSE_DERECHO = 3
